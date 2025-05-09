@@ -94,7 +94,8 @@ def build_dork(country_code, feature):
     "vn": ".vn",        # Vietnam
     "ar": ".com.ar",    # Argentina
     "cl": ".cl",        # Chile
-    "co": ".com.co"     # Colombia
+    "co": ".com.co",    # Colombia
+    "tn": ".tn"
 }
 
     tld = tlds.get(country_code, ".com")
